@@ -8,6 +8,8 @@ TagManager:
   - Bullet
   - TagCollider
   - ClickSound
+  - Grass
+  - Stone
   layers:
   - Default
   - TransparentFX

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2dd0c94311f00f4a916f23f87b15b7a, type: 3}
+  m_Name: HitsoundData
+  m_EditorClassIdentifier: 
+  hitSounds:
+  - audioLocation: PhotonHS/GrassHitSound
+    objectTag: Grass
+    audioPrefab: {fileID: 7947567256596839317, guid: 56e72cb8db7682d45bafe0ff651e1ca1, type: 3}
+  - audioLocation: PhotonHS/StoneHitSound
+    objectTag: Stone
+    audioPrefab: {fileID: 30481810592784628, guid: 48233b1cfc1a4074f92dd56f30a91f68, type: 3}
